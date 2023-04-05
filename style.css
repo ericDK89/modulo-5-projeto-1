@@ -69,7 +69,7 @@ header h1 {
 }
 
 #history-section {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 article h2 {
@@ -88,7 +88,7 @@ article img {
 }
 
 #newsletter-section {
-  margin: 2.5rem 0;
+  margin: 5rem 0;
 }
 
 #newsletter-section .container {
@@ -130,4 +130,20 @@ article img {
   font-size: 1.125rem;
   font-style: italic;
   color: #fff;
+}
+
+#section-titles .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-titles img,
+#section-titles p {
+  width: 650px;
+}
+
+#section-titles .container article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
